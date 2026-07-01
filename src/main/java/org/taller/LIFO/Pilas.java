@@ -1,4 +1,4 @@
-package org.taller;
+package org.taller.LIFO;
 
 public class Pilas {
     Nodo top;
