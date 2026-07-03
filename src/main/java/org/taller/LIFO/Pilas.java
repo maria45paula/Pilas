@@ -21,6 +21,10 @@ public class Pilas {
     }
 
     public int pop() {
+        if (isEmpty()) {
+            throw new IllegalStateException("La lista está vacia");
+        }
+
         int dato = top.valor;
         top = top.siguiente;
 
